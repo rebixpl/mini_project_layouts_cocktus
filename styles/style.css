@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  padding: 5rem 0rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+button {
+  font-size: 1.8rem;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+nav {
+  background: rgb(65, 99, 133);
+  color: whitesmoke;
+  padding: 3rem;
+}
+nav h1 {
+  float: left;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  margin: 0rem 4rem;
+}
+
+.hero-section {
+  background-image: url("https://i.redd.it/9zbbkua1hj351.jpg");
+  height: 80rem;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 15rem;
+  text-shadow: 2px 3px 3px black;
+}
+
+.hero-section button {
+  padding: 1rem 6rem;
+  margin-top: 4rem;
+  background: rgb(34, 50, 66);
+  border: none;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.form-section {
+  text-align: center;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2.4rem;
+}
+
+form input,
+form textarea {
+  margin: 2rem auto;
+  width: 50%;
+}
+
+form button {
+  margin-bottom: 6rem;
+  padding: 1rem 6rem;
+  background: rgb(34, 50, 66);
+  border: none;
+  color: whitesmoke;
+  cursor: pointer;
+  width: 50%;
+}
